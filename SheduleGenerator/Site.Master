@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SheduleGenerator.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Shedule Generator</title>
+    
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Ruda:700' rel='stylesheet' type='text/css'/>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-34020628-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+     <div class="header">
+               <div class="logo_main"> 
+                <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+                    <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Default.aspx" runat="server">
+                        <asp:Image ID="Image2" runat="server" BorderStyle="None" ImageUrl="~/img/logo.png" title="Shedule Generator"
+                        alt="Shedule Generator" />
+                    </asp:HyperLink>
+                </asp:PlaceHolder>
+                </div> 
+
+                <div class="log_reg"> 
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                         <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Prijava</a> 
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            
+                </div>    
+        </div>
+        
+    <div id="page">
+        
+        <div class="s_holder"> 
+        </div>
+
+        
+        <div class="clear hideSkiplink">
+            <asp:Menu ID="Menu1" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Početna"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/generator_info.aspx" Text="O generatoru"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/unos_profesora.aspx" Text="Unos profesora"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/unos_predmeta.aspx" Text="Unos predmeta"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/unos_ucionica.aspx" Text="Unos učionica"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/raspored_sati.aspx" Text="Raspored"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/kontakt.aspx" Text="Kontakt"></asp:MenuItem>
+                    
+                </Items>
+            </asp:Menu>
+        </div>  
+
+        
+
+        <div id="wrapper_main">
+
+            <div class="mainContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            </div>
+   
+        </div>
+   
+
+            <div class="footer">
+                <p>Shedule Generator v1.0</p>
+            </div>       
+     </div>
+    </form>
+</body>
+</html>

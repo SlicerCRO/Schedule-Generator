@@ -1,0 +1,10 @@
+D:\Old Files\WEB PROJEKTI\Projekt\SheduleGenerator\SheduleGenerator\bin\SheduleGenerator.dll
+D:\Old Files\WEB PROJEKTI\Projekt\SheduleGenerator\SheduleGenerator\bin\SheduleGenerator.pdb
+D:\Old Files\WEB PROJEKTI\Projekt\SheduleGenerator\SheduleGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\Old Files\WEB PROJEKTI\Projekt\SheduleGenerator\SheduleGenerator\obj\Debug\SheduleGenerator.dll
+D:\Old Files\WEB PROJEKTI\Projekt\SheduleGenerator\SheduleGenerator\obj\Debug\SheduleGenerator.pdb
+D:\PROGRAMIRANJE\P9\Projekt\Schedule Generator\SheduleGenerator\SheduleGenerator\bin\SheduleGenerator.dll
+D:\PROGRAMIRANJE\P9\Projekt\Schedule Generator\SheduleGenerator\SheduleGenerator\bin\SheduleGenerator.pdb
+D:\PROGRAMIRANJE\P9\Projekt\Schedule Generator\SheduleGenerator\SheduleGenerator\obj\Debug\SheduleGenerator.csprojResolveAssemblyReference.cache
+D:\PROGRAMIRANJE\P9\Projekt\Schedule Generator\SheduleGenerator\SheduleGenerator\obj\Debug\SheduleGenerator.dll
+D:\PROGRAMIRANJE\P9\Projekt\Schedule Generator\SheduleGenerator\SheduleGenerator\obj\Debug\SheduleGenerator.pdb

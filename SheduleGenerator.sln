@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheduleGenerator", "SheduleGenerator\SheduleGenerator.csproj", "{08085C23-DEDB-4535-A3D2-AFA9B88E0680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08085C23-DEDB-4535-A3D2-AFA9B88E0680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08085C23-DEDB-4535-A3D2-AFA9B88E0680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08085C23-DEDB-4535-A3D2-AFA9B88E0680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08085C23-DEDB-4535-A3D2-AFA9B88E0680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
